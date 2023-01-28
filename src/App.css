@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.welcome-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.welcome-title {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.start-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.welcome-page, .about-page {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.welcome-title, .about-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.welcome-text, .welcome-intro, .privacy-policy-text, .about-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-button, .about-button, .privacy-policy-button {
+  padding: 10px 20px;
+  /* background-color: blue; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+  /* margin: 0 10px; */
+}
+
+/* .home-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 10px;
+  margin-left:10px;
+}  */
+
+/* 
+.about-button, .privacy-policy-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  margin-left:10px;
+} */
+
+.top-right-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+/* .top-right-button-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.top-right-button-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.bg-40 {
+  background-color: blue;
+  height: 40%;
+  width:100%;
+}
+
+/* 
+.welcomepagemaindiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: rgb(49, 49, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 49, 177, 1) 0%,
+    rgba(49, 49, 177, 1) 50%,
+    rgba(49, 49, 177, 0.6) 100%
+  );
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+
+
+}
+
+
+.welcomepageseconddiv
+{
+  width: 100%;
+  margin: 15% auto;
+} */
+
+
+h1 {
+  line-height: 1;
+}
+
+
+/* 
+body {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: top top;
+  background-size: cover;
+  margin: 0;
+}   */
+
+
+/* 
+.welcomepagemaindiv {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: top top;
+  background-size: cover;
+  margin: 0;
+}  */
+
+/* 
+.privacypolicymaindiv
+{
+  background-color: #0000ff;
+  background-image: url('https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  padding: 100px; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  text-align:center;
+  color:white;  
+  margin: 0;
+
+} */
+
+ 
+.welcome-page-className
+{
+  /* background-color: #0000ff;
+  background-image: url('https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  padding: 100px; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  text-align:center;
+  color:white;  
+  margin: 0; */
+  /* padding: 20px; */
+
+} 
+
+
+.privacy-policy-title
+{
+  background-color: #0000ff;
+  background-image: url('https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  padding: 100px; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  text-align:center;
+  color:white;  
+  font-size: 36px;
+  margin: 0;
+
+}
+
+
+/* .privacy-policy-page {
+  width: 100%;
+  padding: 20px;
+} */
+
+.welomepagedetail, .privacy-policy-page {
+  /* background-image: url('https://images.unsplash.com/photo-1674227638236-8e838644d470?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+
+}
