@@ -30,6 +30,7 @@ import {
   Router,
 } from "react-router-dom";
 import textFile from "./textfile.txt";
+import React, { useEffect, useRef } from 'react';
 
 // function App() {
 //     return (
@@ -42,6 +43,14 @@ import textFile from "./textfile.txt";
 //   }
 
 function App() {
+  const headRef = useRef(null);
+
+  useEffect(() => {
+    document.title = 'Auzi Apps Studios';
+    // headRef.current.innerHTML = ` <link rel="icon" type="image/x-icon" href="/favicon.ico">`;
+  }, []);
+
+
   return (
     <BrowserRouter>
       <Switch>

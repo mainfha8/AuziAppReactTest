@@ -83,7 +83,6 @@ class PrivacyPolicyPage extends Component {
           <p className="privacy-policy-text">
             If you have any issue regarding our apps, please feel free to
             contact us or any other information you need to know more about us.
-            Contact us at awesomecreativesecureapps@gmail.com{" "}
           </p>
 
           {/* <p className="privacy-policy-text">
