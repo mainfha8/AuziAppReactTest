@@ -30,7 +30,7 @@ import {
   Router,
 } from "react-router-dom";
 import textFile from "./textfile.txt";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
 // function App() {
 //     return (
@@ -45,11 +45,10 @@ import React, { useEffect, useRef } from 'react';
 function App() {
   const headRef = useRef(null);
 
-  useEffect(() => {
-    document.title = 'Auzi Apps Studios';
-    // headRef.current.innerHTML = ` <link rel="icon" type="image/x-icon" href="/favicon.ico">`;
-  }, []);
-
+  // useEffect(() => {
+  //   document.title = 'Auzi Apps Studios';
+  //   // headRef.current.innerHTML = ` <link rel="icon" type="image/x-icon" href="/favicon.ico">`;
+  // }, []);
 
   return (
     <BrowserRouter>
@@ -58,7 +57,7 @@ function App() {
         <Route path="/privacy-policy" component={PrivacyPolicyPage} />
         {/* <Route path="/AboutPage" component={AboutPage} /> */}
         {/* <Route path="/AdsID" component={AdsID} /> */}
-        {/* <Route path="/AdsID" component={AdsIDText} /> */}
+        <Route path="/AdsID" component={AdsIDText} />
         <Route path="/app-ads.txt" component={TextFile} />
       </Switch>
     </BrowserRouter>
@@ -66,8 +65,11 @@ function App() {
 }
 
 function TextFile() {
-    console.log(textFile)
-    return <pre> google.com, pub-2227737204422905, DIRECT, f08c47fec0942fa0</pre>;
+  useEffect(() => {
+    document.title = "https://www.auziapps.com/app-ads.txt";
+  }, []);
+  console.log(textFile);
+  return <pre> google.com, pub-2227737204422905, DIRECT, f08c47fec0942fa0</pre>;
 }
 
 {

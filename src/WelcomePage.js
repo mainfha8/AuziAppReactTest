@@ -6,13 +6,15 @@ import Optin from "./components/Optin/Optin";
 import './WelcomePage.css';
 
 class WelcomePage extends Component {
+
+  componentDidMount() {
+    document.title = "Auzi Apps Studios";
+  }
   render() {
+
     return (
+
       <div className="welcomepagemaindiv">
-        
-      
-
-
         <div className="welcomepagebodydiv">
           <div className="welcomepageseconddiv">
             <div className="top-right-button-container">
