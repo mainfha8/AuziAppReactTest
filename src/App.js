@@ -57,8 +57,8 @@ function App() {
         <Route path="/privacy-policy" component={PrivacyPolicyPage} />
         {/* <Route path="/AboutPage" component={AboutPage} /> */}
         {/* <Route path="/AdsID" component={AdsID} /> */}
-        <Route path="/AdsID" component={AdsIDText} />
-        <Route path="/app-ads.txt" component={TextFile} />
+        {/* <Route path="/AdsID" component={AdsIDText} /> */}
+        {/* <Route path="/app-ads.txt" component={TextFile} /> */}
       </Switch>
     </BrowserRouter>
   );
@@ -69,6 +69,8 @@ function TextFile() {
     document.title = "https://www.auziapps.com/app-ads.txt";
   }, []);
   console.log(textFile);
+
+  
   return <pre> google.com, pub-2227737204422905, DIRECT, f08c47fec0942fa0</pre>;
 }
 
