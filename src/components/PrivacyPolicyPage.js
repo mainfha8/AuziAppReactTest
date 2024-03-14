@@ -5,99 +5,95 @@ class PrivacyPolicyPage extends Component {
   render() {
     return (
       <div className="privacypolicymaindiv">
-        {/* <div>
-          <h1 className="privacy-policy-title">
-            Privacy Policy for Phone Clone App
-          </h1>
-        </div>  */}
+            <div className="privacy-policy-page">
 
-        {/* <div className="welcome-page-className">
-          <h1 className="welcometitle">Privacy Policy for Phone Clone App</h1>
+                <h1 className="welcometitle">Privacy Policy</h1>
+                <p className="privacy-policy-text">
+                    This policy describes the personally identifiable information and other data we will collect from our applications, and how we might use and display such data to third parties. Your Installation, Use, and Submission of Information to us establish your consent to this Privacy Policy and the processing of your information as described in this policy. Please use the services only if you agree to this Privacy Policy.
+                    <br />
+                    Please Note: If you or Your Legal Guardian disagree with any term provided herein, you may not install or use the apps and are requested to uninstall the app from your device promptly.
+                </p>
+                <h2 className="title">How We Use Your Personal Information</h2>
+                <p className="privacy-policy-text">
+                    All user data including media files (audio, video, images) and documents (including contact lists) are securely handled by Our Apps by employing encryption. Moreover, the files that the user backs up on our servers are completely private and are in no way publicly visible or accessible. As per practice in vogue, the app’s personnel may need to access file contents in rare scenarios like
+                </p>
+                <h2 className="title">Legal obligation</h2>
+                <p className="privacy-policy-text">
+                    Ensuring satisfactory user experience (e.g. debugging, performance testing, search result verification, recommendations, etc.)Enforcing our Terms of Service and Acceptable Use Policy.
+                    <br />
+                    Such file access is limited to a minimal number of people. We ensure the implementation of strict policy and access controls.
+                </p>
+                <h2 className="title">Sharing of User Information</h2>
+                <p className="privacy-policy-text">
+                    Any information collected by Our Apps is only for improving the user experience. All information collected is encrypted through industry-standard mechanisms. Our Apps employ best practices to safeguard user information from unauthorized visibility/ access. In certain cases, Our Apps may disclose user information to 3rd parties for advertising purposes. Our Apps use advertising campaigns so as not to reveal the user's personal information while providing a tailored advertisement to suit user requirements. In case of legal action, Our Apps may be obliged to disclose user information to third parties against some malicious acts on the part of the user. Our App advises its users to take necessary precautions when sharing information with unknown 3rd parties.
+                </p>
+                <h2 className="title">Link to Third-Party Websites and Services</h2>
+                <p className="privacy-policy-text">
+                    The APPS may contain links to other websites and online services, including third-party advertisements. If you choose to click through one of these other websites or online services, please note that any information you may provide will be subject to that website’s or service’s privacy policy and their terms & conditions, and not to this Privacy Policy. We do not share your data with third-party websites or services, with the fact that a link to such websites or services does not appear in our APPS. You agree that our application will have no liability for any matters related to the third-party website or service you provide information to, including their collection and handling.
+                </p>
+                <h2 className="title">Adherence with Laws</h2>
+                <p className="privacy-policy-text">
+                    ("We") reserve the right to share your information with third parties if we believe such action is necessary to:
+                    <br />
+                    Conform to the requirements of the law or comply with the legal process served upon us.
+                    <br />
+                    Protect or defend our legal rights or property.
+                    <br />
+                    Investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, or violations of the terms and conditions of using our Apps and Services.
+                </p>
 
-          <div className="top-right-button-container">
-            <Link to="/" className="home-button">Home</Link>
-            <Link to="/app-ads.txt" className="about-button top-right-button">AdsID</Link>
-          </div>
-          
-        </div> */}
+                <h2 className="title">Permissions Our Apps May Ask For</h2>
+                <p className="privacy-policy-text">
+                    Our apps may ask for the following permissions but that will be for the sole purpose of providing core functionality. There will be no invasion of privacy or unethical use of resources or data.
+                    <ul>
+                        <li>
+                            Camera
+                        </li>
+                        <li>
+                            Contacts
+                        </li>
+                        <li>
+                            Location
+                        </li>
+                        <li>
+                            Music & Audio
+                        </li>
+                        <li>
+                            Nearby Devices
+                        </li>
+                        <li>
+                            <li>  Notifications</li>
+                            <li>  Photos & Videos</li>
+                            <li>  Record Audios</li>
+                            <li>  Manage All Files</li>
+                    </ul>
+                </p>
 
+                <h2 className="title">Data Security</h2>
+                <p className="privacy-policy-text">
+                    AUZI APPS STUDIOS has implemented technology and policies to safeguard your privacy from unauthorized access and improper use.
+                </p>
 
+                <h2 className="title">
+                    Changes to our Privacy Policy
+                </h2>
+                <p className="privacy-policy-text">
+                    This Privacy Policy may be updated for any reason e.g. legal, economic, public opinion, etc. We reserve the right to update the policy and have no obligation to inform users actively. Users are welcome to revisit the page for updates to the policy.
+                </p>
 
-
-        <div className="privacy-policy-page">
-
-        <h1 className="welcometitle">Privacy Policy for Phone Clone App</h1>
-
-          <h2 className="title">Personal information:</h2>
-          <p className="privacy-policy-text">
-            We May use your personal information like images provided by you
-            with your consent for only showing you with different styles but we
-            are not giving these images data provided by you to any third party
-            library.
-          </p>
-          <h2 className="title">Non-personal Data::</h2>
-          <p className="privacy-policy-text">
-            We are using non personal information like wifi state or phone
-            model, how much data you are using for only states showing.
-          </p>
-          <h2 className="title">Internet Access::</h2>
-          <p className="privacy-policy-text">
-            We are accessing internet state for checking internet speed and also
-            for calculation of internet usage
-          </p>
-          <h2 className="title">Camera:</h2>
-          <p className="privacy-policy-text">
-            We need camera permission for helping the user to capture his/her
-            pictures for editing it according to his needs or scanning QR code.
-          </p>
-          <h2 className="title">Microphone:</h2>
-          <p className="privacy-policy-text">
-            We do not save any recordings or user information on our own
-            servers. The microphone is only used to listen only that will be
-            converted into text.
-          </p>
-
-          <h2 className="title">Storage:</h2>
-          <p className="privacy-policy-text">
-            We need Storage permission in our application, the main purpose of
-            this is to Save user’s work in the SD card or get files from mobile
-            storage.
-          </p>
-
-          <h2 className="title">Third Party Services:</h2>
-          <p className="privacy-policy-text">
-            We are using variety of third party services like Google ads or
-            Facebook ads. We are not controlling third party websites or
-            services Any link to such a website or service appears in the Apps
-            does not mean that we endorse them or practices relating to user
-            information.
-          </p>
-
-          <h2 className="title">Changes in our privacy policy:</h2>
-          <p className="privacy-policy-text">
-            Our privacy policy might change with time, we would let users notify
-            as any changes in privacy.
-          </p>
-
-          <h2 className="title">Contact Us:</h2>
-          <p className="privacy-policy-text">
-            If you have any issue regarding our apps, please feel free to
-            contact us or any other information you need to know more about us.
-          </p>
-
-          {/* <p className="privacy-policy-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            euismod, magna id bibendum ornare, velit elit fringilla ligula, et
-            condimentum ipsum metus euismod est. Praesent euismod, magna id
-            bibendum ornare, velit elit fringilla ligula, et condimentum ipsum
-            metus euismod est.
-          </p> */}
+                <h2 className="title">Children's Privacy</h2>
+                <p className="privacy-policy-text">
+                    We don’t perceptively gather personally identifiable information from anyone under the age of 13. If you are a parent or guardian be aware that children have provided us with personal data please let us know. We are obliged to remove any information from our services if we come to know that data is gathered from children without the acquiescence of the parent.
+                </p>
+                <h2 className="title">
+                    Contact us
+                </h2>
+                <p className="privacy-policy-text">
+                    If you have any questions regarding privacy while using the apps, or have questions about our practices, please contact us via email at
+                    auziappsstudios@gmail.com
+                </p>
+            </div>
         </div>
-
-        {/* <div className="button-container">
-          <Link to="/" className="home-button">Home</Link>
-        </div> */}
-      </div>
     );
   }
 }
