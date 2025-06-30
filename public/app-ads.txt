@@ -1,5 +1,5 @@
 google.com, pub-2227737204422905, DIRECT, f08c47fec0942fa0
-yandex.com, 108485427, DIRECT
+yandex.com, 310639797, DIRECT
 betweendigital.com, 43554, RESELLER
 openx.com, 541177349, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 159668, RESELLER, 5d62403b186f2ace
